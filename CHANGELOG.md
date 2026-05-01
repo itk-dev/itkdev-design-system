@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-05-01
+
 ### Changed
 
 - ITK Development is now part of **Borgmesterens Afdeling** (BA) rather than Kultur og Borgerservice. Updated department references in `index.html`, `README.md`, `examples/website.html`, and `tokens/logo.html`. Email address (`itk@mkb.aarhus.dk`) and the Hetzner sample news copy are unchanged for now.
