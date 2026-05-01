@@ -7,8 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- `examples/website.html`: department list now uses `border-bottom` per row so the first row no longer hugs the cell's top edge and the last row doesn't appear clipped — uniform vertical rhythm across all six items.
+
 ### Added
 
+- `robots.txt` and `noindex` meta tag on `examples/website.html` to keep the applied example out of search engines.
 - Initial repository setup for the ITK Development Design System.
 - `tokens.css` — design tokens (colors, neutral scale, typography, type scale, spacing, radii, elevation, focus ring, layout) as CSS custom properties.
 - `index.html` — landing page indexing foundations, brand, and applied examples.
