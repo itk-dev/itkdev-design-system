@@ -1,0 +1,98 @@
+/* =============================================================
+   ITK Development — Design Tokens
+   Colors extracted from the official ITK Farvekoder document.
+   ============================================================= */
+
+:root {
+  /* ---- Brand palette (from Farvekoder.pptx) ------------------ */
+  --itk-red:         #E44930;  /* rgb(228, 73, 48)   */
+  --itk-lime:        #89BD23;  /* rgb(137,189, 35)   */
+  --itk-mint:        #73BC99;  /* rgb(115,188,153)   */
+  --itk-blue:        #007BA6;  /* rgb(  0,123,166)   — primary */
+  --itk-cyan:        #00A5CD;  /* rgb(  0,165,205)   */
+  --itk-aqua:        #00B5C9;  /* rgb(  0,181,201)   */
+  --itk-green:       #008D3D;  /* rgb(  0,141, 61)   */
+
+  /* ---- Functional roles ------------------------------------- */
+  --itk-primary:          var(--itk-blue);
+  --itk-primary-hover:    #006385;
+  --itk-accent:           var(--itk-red);
+
+  /* ---- Neutral scale ---------------------------------------- */
+  --itk-ink:         #111318;   /* body copy, logo "Sort" */
+  --itk-ink-soft:    #2a2f38;
+  --itk-slate-700:   #3f4654;
+  --itk-slate-500:   #6b7484;
+  --itk-slate-300:   #c7ccd4;
+  --itk-slate-200:   #dfe3ea;
+  --itk-slate-100:   #eef1f5;
+  --itk-slate-50:    #f7f8fa;
+  --itk-paper:       #ffffff;
+
+  /* ---- Surfaces --------------------------------------------- */
+  --itk-bg:          var(--itk-paper);
+  --itk-bg-muted:    var(--itk-slate-50);
+  --itk-bg-inverse:  var(--itk-ink);
+
+  /* ---- Type stack ------------------------------------------- */
+  --itk-font-sans: "Inter Tight", "Helvetica Neue", Arial, sans-serif;
+  --itk-font-display: "Inter Tight", "Helvetica Neue", Arial, sans-serif;
+  --itk-font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* ---- Type scale (modular, base 16) ------------------------ */
+  --itk-text-xs:   12px;
+  --itk-text-sm:   14px;
+  --itk-text-base: 16px;
+  --itk-text-md:   18px;
+  --itk-text-lg:   22px;
+  --itk-text-xl:   28px;
+  --itk-text-2xl:  36px;
+  --itk-text-3xl:  48px;
+  --itk-text-4xl:  64px;
+  --itk-text-5xl:  88px;
+
+  /* ---- Spacing (4px base) ----------------------------------- */
+  --itk-space-1:  4px;
+  --itk-space-2:  8px;
+  --itk-space-3: 12px;
+  --itk-space-4: 16px;
+  --itk-space-5: 24px;
+  --itk-space-6: 32px;
+  --itk-space-7: 48px;
+  --itk-space-8: 64px;
+  --itk-space-9: 96px;
+
+  /* ---- Radii ------------------------------------------------ */
+  --itk-radius-0: 0;
+  --itk-radius-1: 2px;
+  --itk-radius-2: 6px;
+  --itk-radius-3: 10px;
+  --itk-radius-4: 16px;
+  --itk-radius-pill: 999px;
+
+  /* ---- Elevation -------------------------------------------- */
+  --itk-shadow-1: 0 1px 2px rgba(17,19,24,0.06);
+  --itk-shadow-2: 0 4px 10px -2px rgba(17,19,24,0.08), 0 2px 4px -1px rgba(17,19,24,0.04);
+  --itk-shadow-3: 0 16px 32px -12px rgba(17,19,24,0.18), 0 4px 8px -2px rgba(17,19,24,0.06);
+
+  /* ---- Focus ring ------------------------------------------- */
+  --itk-focus: 0 0 0 3px rgba(0,123,166,0.35);
+
+  /* ---- Layout ----------------------------------------------- */
+  --itk-container: 1200px;
+  --itk-gutter: 24px;
+}
+
+/* Base reset-ish */
+*,*::before,*::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: var(--itk-font-sans);
+  color: var(--itk-ink);
+  background: var(--itk-bg);
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "cv11","ss01";
+  line-height: 1.55;
+}
+a { color: var(--itk-primary); text-decoration: underline; text-underline-offset: 3px; }
+a:hover { color: var(--itk-primary-hover); }
