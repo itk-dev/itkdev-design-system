@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- ITK Development is now part of **Borgmesterens Afdeling** (BA) rather than Kultur og Borgerservice. Updated department references in `index.html`, `README.md`, `examples/website.html`, and `tokens/logo.html`. Email address (`itk@mkb.aarhus.dk`) and the Hetzner sample news copy are unchanged for now.
+
 ### Fixed
 
 - `examples/website.html`: department list now uses `border-bottom` per row so the first row no longer hugs the cell's top edge and the last row doesn't appear clipped — uniform vertical rhythm across all six items.

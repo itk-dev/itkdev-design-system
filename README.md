@@ -1,6 +1,6 @@
 # ITK Development — Design System
 
-A small, opinionated visual design system for **ITK Development**, the team in Aarhus Kommune (Kultur og Borgerservice) that designs, builds and maintains digital services for every magistrate in the city.
+A small, opinionated visual design system for **ITK Development**, the team in Aarhus Kommune (Borgmesterens Afdeling) that designs, builds and maintains digital services for every magistrate in the city.
 
 One palette, one type stack, one set of primitives — used from `itk.aarhus.dk` down to internal admin tools.
 
@@ -74,5 +74,5 @@ python3 -m http.server 8000
 
 ## Contact
 
-ITK Development · Aarhus Kommune · Kultur og Borgerservice
+ITK Development · Aarhus Kommune · Borgmesterens Afdeling
 [itk@mkb.aarhus.dk](mailto:itk@mkb.aarhus.dk) · [itk.aarhus.dk](https://itk.aarhus.dk)
